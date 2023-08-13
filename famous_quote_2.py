@@ -1,3 +1,4 @@
+# Author: George Maysack-Schlueter
 famous_first = "Eleanor"
 famous_last = "Roosevelt"
 month = "June"

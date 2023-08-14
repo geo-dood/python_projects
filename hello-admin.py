@@ -1,4 +1,4 @@
-# Author: George Maysack-Schlueter
+# Author: George D. Maysack-Schlueter
 current_users = ['alice0', 'bob1', 'carol2', 'david3', 'edward4', 'admin']
 
 user_in = input("\nPlease provide a username --> ")

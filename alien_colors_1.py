@@ -1,4 +1,4 @@
-# Author: George Maysack-Schlueter
+# Author: George D. Maysack-Schlueter
 alien_colors = ['green', 'yellow', 'red']
 
 start_score = 0

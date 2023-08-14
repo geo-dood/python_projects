@@ -1,4 +1,4 @@
-# Author: George Maysack-Schlueter
+# Author: George D. Maysack-Schlueter
 numbers = range(1, 10)
 
 for number in numbers:

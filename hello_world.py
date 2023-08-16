@@ -1,4 +1,4 @@
-# Author: George Maysack-Schlueter
+# Author: George D. Maysack-Schlueter
 message = "Hello Python World!"
 print(message)
 

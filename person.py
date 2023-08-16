@@ -1,8 +1,9 @@
 # Author: George D. Maysack Schlueter
-dict = {'name'      : 'bob', 'age': 42,
-        'occupation': 'builder', 'fav_thing': 'construction'
-        }
+bob_dict = dict(name='bob', age=42,
+                occupation='builder',
+                fav_thing='construction')
 
-print(f"{dict['name'].title()} is a {dict['occupation']}."
-      f"\n{dict['name'].title()} is {dict['age']} years old."
-      f"\n{dict['name'].title()}'s favorite thing is {dict['fav_thing']}!")
+print(f"{bob_dict['name'].title()} is a {bob_dict['occupation']}."
+      f"\n{bob_dict['name'].title()} is {bob_dict['age']} years old."
+      f"\n{bob_dict['name'].title()}'s favorite thing "
+      f"is {bob_dict['fav_thing']}!")

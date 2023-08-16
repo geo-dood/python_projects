@@ -15,10 +15,12 @@ dinner_guests.insert(2, 'Jamie')
 print('We need 5 guests, so here is the new invitation:\n')
 print(f'Hello, {dinner_guests[0]}! Would you like to come to a dinner party?')
 print(f'Hello, {dinner_guests[1]}! Would you like to come to a dinner party?')
-print(f'Hello, {dinner_guests[2].upper()}! Would you like to come to a dinner party?')
+print(f'Hello, {dinner_guests[2].upper()}! Would you like to come to a dinner '
+      f'party?')
 print(f'Hello, {dinner_guests[3]}! Would you like to come to a dinner party?')
 print(f'Hello, {dinner_guests[4]}! Would you like to come to a dinner party?')
-print(f"\nLook at that! {dinner_guests[2]} took {removed_guests}'s spot right in the middle!")
+print(f"\nLook at that! {dinner_guests[2]} took {removed_guests}'s spot right "
+      f"in the middle!")
 # found larger table
 print('\nBROADCAST: Attention everyone! I have found a larger table. '
       'We now need 8 guests.\nNew invitees will be'
@@ -28,11 +30,14 @@ dinner_guests.insert(0, 'Jim-bob')
 dinner_guests.insert(3, 'Jake')
 dinner_guests.append('Jason')
 # final invitations
-print(f'Hello, {dinner_guests[0].upper()}! Would you like to come to a dinner party?')
+print(f'Hello, {dinner_guests[0].upper()}! Would you like to come to a dinner '
+      f'party?')
 print(f'Hello, {dinner_guests[1]}! Would you like to come to a dinner party?')
 print(f'Hello, {dinner_guests[2]}! Would you like to come to a dinner party?')
-print(f'Hello, {dinner_guests[3].upper()}! Would you like to come to a dinner party?')
+print(f'Hello, {dinner_guests[3].upper()}! Would you like to come to a dinner '
+      f'party?')
 print(f'Hello, {dinner_guests[4]}! Would you like to come to a dinner party?')
 print(f'Hello, {dinner_guests[5]}! Would you like to come to a dinner party?')
 print(f'Hello, {dinner_guests[6]}! Would you like to come to a dinner party?')
-print(f'Hello, {dinner_guests[7].upper()}! Would you like to come to a dinner party?')
+print(f'Hello, {dinner_guests[7].upper()}! Would you like to come to a dinner '
+      f'party?')

@@ -3,8 +3,8 @@ import hashlib
 from typing import TextIO
 
 given_hash: str = input("Provide Md5 Hash to Crack --> ")
-password_file: TextIO = open(r"C:\localFiles\wordlists\10-million-password-list-"
-                             r"top-1000000.txt")
+password_file: TextIO = open(r"C:\localFiles\wordlists\10-million-password-list"
+                             r"-top-1000000.txt")
 password_list: list[str] = password_file.read().split('\n')
 
 

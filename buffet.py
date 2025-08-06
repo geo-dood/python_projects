@@ -1,17 +1,21 @@
 # Author: George Maysack-Schlueter
+
+# This week's buffet menu
 menu_items = ("pasta", "beans", "rice", "chicken", "potatoes", "steak")
 
-print("\n------------------------------")
-print("The buffet menu is as follows:")
+print("\n==============================")
+print("🍽️  This Week's Buffet Menu:")
+print("==============================")
 for item in menu_items:
-    print(item)
+    print(f" - {item.capitalize()}")
 
-# Replacing "chicken" and "steak" with "fish" and "tofu"
-menu_items = ("pasta", "beans", "rice", "fish", "potatoes", "tofu")
+# Update menu for next week
+next_week_menu = ("pasta", "beans", "rice", "fish", "potatoes", "tofu")
 
-print("------------------------------")
-print("Next weeks menu is as follows:")
-for item in menu_items:
-    print(item)
-print("------------------------------")
+print("\n==============================")
+print("🥗  Next Week's Buffet Menu:")
+print("==============================")
+for item in next_week_menu:
+    print(f" - {item.capitalize()}")
 
+print("==============================\n")
